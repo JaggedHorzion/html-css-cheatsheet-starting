@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="D:\Coding\html-css-cheatsheet-starting\styles.css" type="text/css" rel="stylesheet">
+    <title>HTML Tables & CSS Selectors Cheatsheet</title>
+</head>
+<body>
+    <h1>HTML Tables & CSS Selectors Cheatsheet</h1>
+    <br>
+    <h2>HTML Table Tags</h2>
+    <table>
+        <thread>
+            <th><span class="green">Tag</span></th>
+            <th><span class="pink">Name</span></th>
+            <th><span class="tan">Description</span></th>
+        </thread>
+        <tbody>
+            <tr>
+            <td><span class="green">&lt;table&gt;</span></td>
+            <td><span class="pink">Table</span></td>
+            <td><span class="tan">The wrapper element for all HTML tables.</span></td>
+          </tr>
+          <tr>
+            <td><span class="green">&lt;thead&gt;</span></td>
+            <td><span class="pink">Table Head</span></td>
+            <td><span class="tan">The set of rows defining the column headers in a table.</span></td>
+          </tr>
+          <tr>
+            <td><span class="green">&lt;tbody&gt;</span></td>
+            <td><span class="pink">Table Body</span></td>
+            <td><span class="tan">The set of rows containing actual table data.</span></td>
+          </tr>
+          <tr>
+            <td><span class="green">&lt;tr&gt;</span></td>
+            <td><span class="pink">Table Row</span></td>
+            <td><span class="tan">The table row container.</span></td>
+          </tr>
+          <tr>
+            <td><span class="green">&lt;td&gt;</span></td>
+            <td><span class="pink">Table Data</span></td>
+            <td><span class="tan">The table row container.</span></td>
+          </tr>
+          <tr>
+            <td><span class="green">&lt;tfoot&gt;</span></td>
+            <td><span class="pink">Table Foot</span></td>
+            <td><span class="tan">The set of rows defining the footer in a table.</span></td>
+          </tr>
+        </tbody>
+    </table>
+    <h2>Table Attributes</h2>
+    <table>
+      <thead>
+        <th><span class="green">Attribute</span></th>
+        <th><span class="pink">Name</span></th>
+        <th><span class="tan">Description</span></th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="green">colspan</span></td> 
+            <td><span class="pink">Column Span</span></td>
+            <td><span class="tan">Defines how many columns a td element should span.</span></td>
+          </tr>
+        <tr>
+          <td><span class="green">rowspan</span></td>
+          <td><span class="pink">Row Span</span></td>
+          <td><span class="tan">Defines how many rows a td element should span.</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>CSS Selectors and Specificity</h2>
+    <table>
+        <thead>
+            <th><span class="green">Selector</span></th>
+            <th><span class="pink">Name</span></th>
+            <th><span class="tan">Description</span></th>
+        </thead>
+        <tbody>
+          <tr>
+          <td><span class="green">+</span></td>
+          <td><span class="pink">Adjacent Sibling Combinator</span></td>
+          <td><span class="tan">Separates two selectors and matches the second element <br> only if it immediately follows the first element.</span></td>
+        </tr>
+        <tr>
+          <td><span class="green">.example</span></td>
+          <td><span class="pink">Class Selector</span></td>
+          <td><span class="tan">The CSS class selector matches elements based on the contents of their class attribute.</span></td>
+        </tr>
+        <tr>
+          <td><span class="green">#exmple</span></td>
+          <td><span class="pink">ID Selector</span></td>
+          <td><span class="tan">The CSS ID selector matches an element based on the value of the element's id attribute.</span></td>
+        </tr>
+        <tr>
+          <td><span class="green">&lt;tag&gt; , &lt;tag&gt;</span></td>
+          <td><span class="pink">Group Selector</span></td>
+          <td><span class="tan">Match multiple selectors to the same CSS rule, using a comma-separated list.</span></td>
+        </tr>
+        <tr>
+          <td><span class="green">&lt;tag&gt;#example</span></td>
+          <td><span class="pink">Selector Specificity</span></td>
+          <td><span class="tan">Specificity is a ranking system that is used when there are multiple conflicting property values that point to the same element. When determining which rule to apply, the selector with the highest specificity wins out.</span></td>
+        </tr>
+        <tr>
+          <td><span class="green">&lt;tag&gt;.example.example</span></td>
+          <td><span class="pink">Chain Selectors</span></td>
+          <td><span class="tan">CSS selectors can be chained so that rule sets apply only to elements that match all criteria.</span></td>
+        </tr>
+        <tr>
+          <td><span class="green">&lt;tag&gt;</span></td>
+          <td><span class="pink">Type Selectors</span></td>
+          <td><span class="tan">CSS type selectors are used to match all elements of a given type or tag name.</span></td>
+        </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
+
